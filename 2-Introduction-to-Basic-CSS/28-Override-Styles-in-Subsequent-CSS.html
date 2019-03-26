@@ -1,0 +1,26 @@
+<!--Whichever class is listed last in the Style element will prevail.
+The blue-text class overrides the pink-text class because it comes later in the style element.-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Override Styles in Subsequent CSS</title>
+    <style>
+      body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+      }
+      .pink-text {
+        color: pink;
+      }
+
+      .blue-text {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="pink-text blue-text">Hello World!</h1>
+  </body>
+</html>
