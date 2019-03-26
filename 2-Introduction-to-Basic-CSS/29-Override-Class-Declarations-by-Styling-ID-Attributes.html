@@ -1,0 +1,33 @@
+<!--
+Facts:
+  - class styles override body styles
+  - browsers read CSS styles from top to bottom
+  - id styles override class styles
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Override Class Declarations Styling ID Attributes</title>
+    <style>
+      body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+      }
+      .pink-text {
+        color: pink;
+      }
+      #orange-text {
+        color: orange;
+      }
+      .blue-text {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+  </body>
+</html>
