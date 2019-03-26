@@ -1,0 +1,25 @@
+<!--Using a more widely supported value such as "background: red;" instead of
+using the variable --red-color;
+allows for greater browser compatibility.-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Improve Compatibility with Browser Fallbacks</title>
+    <style>
+      :root {
+        --red-color: red;
+      }
+      .red-box {
+        background: red;
+        background: var(--red-color);
+        height: 200px;
+        width:200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red-box"></div>
+  </body>
+</html>
