@@ -1,0 +1,47 @@
+<!--
+  center
+    - puts all objects in the center of the container
+  flex-start
+    - "aligns items to the start of the flex container"
+  flex-end
+    - "aligns items to the end of the flex container"
+  space-between
+    - aligns items to the center of the main axis with space between the items
+  space-around
+    - aligns items to the center of the main axis with space around the items, in the cetner and on the sides
+  https://www.w3schools.com/css/css3_flexbox.asp#justify-content
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Align Elements Using the justify-content Property</title>
+    <style>
+      #box-container {
+        background: gray;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+      }
+      #box-1 {
+        background-color: dodgerblue;
+        width: 25%;
+        height: 100%;
+      }
+
+      #box-2 {
+        background-color: orangered;
+        width: 25%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="box-container">
+      <div id="box-1"></div>
+      <div id="box-2"></div>
+    </div>
+  </body>
+</html>
