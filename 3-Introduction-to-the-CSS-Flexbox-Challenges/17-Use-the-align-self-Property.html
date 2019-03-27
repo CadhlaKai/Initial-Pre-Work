@@ -1,0 +1,36 @@
+<!--Align self allows us to adjust the alignment of flex items individually
+align-self will override align-items properties.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Use the align-self Property</title>
+    <style>
+      #box-container {
+        display: flex;
+        height: 500px;
+      }
+      #box-1 {
+        background-color: dodgerblue;
+        align-self: center;
+        height: 200px;
+        width: 200px;
+      }
+
+      #box-2 {
+        background-color: orangered;
+        align-self: flex-end;
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box-container">
+      <div id="box-1"></div>
+      <div id="box-2"></div>
+    </div>
+  </body>
+</html>
