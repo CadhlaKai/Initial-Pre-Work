@@ -1,0 +1,61 @@
+<!--
+Properties
+  justify-self
+    - horizontally adjusts one element in a CSS grid
+  align-self
+    - vertically adjusts one element in a CSS grid
+  justify-items
+    - horizontally adjusts all items in a CSS grid
+
+Values:
+  - start
+    aligns content at the left of the cell
+
+  - center
+    - aligns content at the center of the cell
+
+  - end
+    - aligns content at the right of the cell
+
+  - stretch
+    (default value) stretches content to fill the cell
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .item1{background:LightSkyBlue;}
+      .item2{background:LightSalmon;}
+      .item3{background:PaleTurquoise;}
+      .item4{background:LightPink;}
+      .item5{background:PaleGreen;}
+
+      .container {
+        font-size: 40px;
+        min-height: 300px;
+        width: 100%;
+        background: LightGray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        /* add your code below this line */
+
+        /* add your code above this line */
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+    </div>
+  </body>
+</html>
