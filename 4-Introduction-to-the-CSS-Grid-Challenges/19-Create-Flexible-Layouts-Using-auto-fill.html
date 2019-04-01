@@ -1,4 +1,8 @@
-<!--auto-fill and minmax allow us to make flexible layouts that will fit well in most screens--->
+<!--
+auto-fill and minmax allow us to make
+grids that will insert new columns when it has enough room,
+but stretch to fill the space otherwise, and fill new space with empty columns
+--->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -20,7 +24,7 @@
         display: grid;
         /* change the code below this line */
 
-        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 
         /* change the code above this line */
         grid-template-rows: 1fr 1fr 1fr;
