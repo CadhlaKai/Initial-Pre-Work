@@ -1,0 +1,9 @@
+//Can use concatenation to add many strings together to make sentences.
+
+// Example
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+// Only change code below this line
+var myName = "Kiley";
+var myStr = "My name is " + myName + " and I am well!";
