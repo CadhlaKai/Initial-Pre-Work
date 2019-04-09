@@ -1,16 +1,21 @@
-//functions and arrays and other mutable things in JavaScript
-//are still mutable even if the variable is assigned
-//with a const
+/**Notes
+   * Though const variables are read-only and cannot be reassigned,
+   * any mutable object declared with const is still mutable
 
+Original:
+  const s = [5, 7, 2];
+  function editInPlace() {
+    "use strict";
+  }
+  editInPlace();
+*/
+
+//Solution
 const s = [5, 7, 2];
 function editInPlace() {
   "use strict";
-  // change code below this line
   s[0] = 2;
   s[1] = 5;
   s[2] = 7;
-  // s = [2, 5, 7]; <- this is invalid
-
-  // change code above this line
 }
 editInPlace();
