@@ -1,4 +1,4 @@
-/**
+/**Notes:
  * using the spread operator ... we can account for all remaining elements in an array
  
  Original:

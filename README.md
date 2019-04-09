@@ -24,9 +24,19 @@ Browser sends a request for documents to server.
 Server processes request and sends documents to browser.
 Browser reads files and displays documents (HTML, CSS, JS)
 
+Source:
+Udemy course:
+https://www.udemy.com/the-complete-web-developer-zero-to-mastery/learn/lecture/8582534#content
+The Complete Web Developer in 2019: Zero to Mastery
+Section 2: How the Internet Works
+
 ## What code is rendered in the browser?
 
-Looking this question I got a lot of information about "rendering" and its specifics, but I understand that JavaScript is rendered in the browser, along with HTML and CSS, although HTML and CSS aren't really considered programming languages; this depends on the semantic meaning of the word "code" in the question.
+JavaScript is a programming language that is rendered in the browser.
+
+HTML is a document type that is displayed in the browser, and CSS is a stylesheet that is used to format the HTML document.
+
+I learned this information over the last decade or so as I dabbled here and there in development.
 
 ## What is the server-side code’s main function?
 
@@ -52,18 +62,18 @@ You are correct that runtime code is library code, but library code is a more ge
 
 Source:
 https://stackoverflow.com/questions/3900549/what-is-runtime
-By: e.James
+Comment By: e.James
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-According to this Mozilla page, it is possible to store a copy of the HTML, CSS, and JavaScript files of a webpage at the client browser.
+According to this Mozilla page, it is possible to store a copy of the HTML, CSS, and JavaScript files of a webpage at the client browser. My assumption is that only one (or pieces of one, for fast reload purposes) or none would neen to be stored on the client side.
 
 Source:
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage#Offline_asset_storage
 
 ## How many instances of the server-side code are available at any given time?
 
-My assumption is that this is limited only by the bandwidth and processing power of the server, as multiple people will have to access the server at any given time simultaneously.
+My assumption is that this is limited only by lmitation placed on it by the admin, bandwidth or processing power of the server, as multiple people will have to access the server at any given time simultaneously, so more than 1 and less than infinite.
 
 ## How many instances of the databases connected to the server application are created?
 

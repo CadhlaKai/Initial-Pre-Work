@@ -1,5 +1,24 @@
-//More destructuring
+/**Notes:
+ * Descructuring to assign variables also works from nested objects.
 
+ Original:
+  const LOCAL_FORECAST = {
+    today: { min: 72, max: 83 },
+    tomorrow: { min: 73.3, max: 84.6 }
+  };
+
+  function getMaxOfTmrw(forecast) {
+    "use strict";
+    // change code below this line
+    const maxOfTomorrow = undefined; // change this line
+    // change code above this line
+    return maxOfTomorrow;
+  }
+
+  console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+ */
+
+//Solution
 const LOCAL_FORECAST = {
   today: { min: 72, max: 83 },
   tomorrow: { min: 73.3, max: 84.6 }
