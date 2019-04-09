@@ -1,7 +1,8 @@
 <!--
-  Specify a font to degrade to if the font specified isn't available by placing it after the font specified in the style separated by a comma.
-  This gives the developer more control over the style of the webpage if the specified font is not available.
-  - Generic font families are not case sensitive.
+  Notes:
+    Specify a font to degrade to if the font specified isn't available by placing it after the font specified in the style separated by a comma.
+    This gives the developer more control over the style of the webpage if the specified font is not available.
+      - Generic font families are not case sensitive.
 -->
 
 <!DOCTYPE html>
@@ -9,6 +10,7 @@
   <head>
     <title>Specify How Fonts Should Degrade</title>
     <!--<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">-->
+    <!--Solution: commented out the imported font, and set the h2 element to degrade to monospace when Lobster isn't available.-->
     <style>
       .red-text {color: red;}
 
